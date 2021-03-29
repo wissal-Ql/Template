@@ -121,9 +121,14 @@ function cartNumber(products){
             <p class="text-right">
             <h4 class="basketTotalTitle"></h4>
             <h4 class="basketTotal">${cartCost},00dh</h4>
+            <button onclick="clearstorage();">Vider Cart</button>
             </p>       
         `;
     }
  }
  onLoadcartNumber();
  displayCart();
+
+ function clearstorage(){
+     this.localStorage.clear();
+location.reload(); }
