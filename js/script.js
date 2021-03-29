@@ -112,6 +112,9 @@ function cartNumber(products){
                     <span id="${item.tag}">${item.inCart}</span>
                     <i class="fas fa-arrow-circle-down" ></i>
                     </p>
+                    <div class="total">
+                    <p> Total: ${item.inCart * item.price},00dh</p>
+                    </div>
                 </div>
                 <hr class="my-4">
                 `;
@@ -119,9 +122,9 @@ function cartNumber(products){
 
         productContainer.innerHTML +=`        
             <p class="text-right">
-            <h4 class="basketTotalTitle"></h4>
+            <h4 class="basketTotalTitle">Total du Panier</h4>
             <h4 class="basketTotal">${cartCost},00dh</h4>
-            <button onclick="clearstorage();">Vider Cart</button>
+            <button class="btn btn-danger" onclick="clearstorage();">Vider Panier</button>
             </p>       
         `;
     }
