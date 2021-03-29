@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Custom Css File Link-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,600&display=swap" >
+</head>
+<body>
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
+        <a class="navbar-brand" href="#" style="border-right: 1px solid rgb(247, 98, 98); padding-right: 10px;">
+            <img src="Images/Logo1.png" alt="" style="height:40px; width:40px; margin-right:5px">
+            Algar's Cosmetics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Boutique.html">Boutique</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="FAQ.html">FAQ</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 10px; ">
+                <input class="form-control mr-sm-2 btn btn-danger type="search" placeholder="Search" aria-label="Search" style="height: 30px; ">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" style="width: 30px; height: 31px;  padding: 5px;"><i class="fas fa-search text-danger"></i></button>
+            </form>
+            
+                
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
+                <a class="nav-link badge badge-danger" type="button" data-toggle="modal" data-target="#exampleModal" style="width: 30px; height: 28px; padding-top: 8px;"><i class="fas fa-user-circle"></i></a>
+            </form>
+
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
+                <a class="nav-link  badge badge-danger " href="Panier.html " style="width: 30px; height: 28px; padding-top: 8px;"><i class="fas fa-shopping-cart"></i> <span class="icon">*</span></a>
+            </form>
+            
+        </div>
+    </nav>
+      <!--navbar-->
+      <h1 class="text-center" style="margin-left: 30px;">Panier💖✨</h1>
+      
+        <div class="container" style=" background-color: #cf8fa72a;; margin-bottom: 30px; padding-bottom: 30px; padding-top: 40px; border-radius: 10px;">
+            <div class=" text-center">
+                <a href="Boutique.html" class="badge badge-danger" >Rtourner vers la boutique</a>
+               </div>
+            <div class="products-container">
+               
+             
+                <div class="text-center" style= " height:max-content">
+                            <div class="products" >
+                                
+                            </div>
+                      
+                </div>  
+
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--footer-->
+    <div class="container-fluid" style=" position: relative; bottom:-200px;">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <hr class="border-top my-3">
+                <h5 class=" text-danger">LIENS UTILES</h5>
+                <a class="nav-link text-dark " href="index.html">Accueil</a>
+                <a class="nav-link text-dark" href="Boutique.html">Boutique</a>
+                
+                
+            </div>
+            <div class="col-md-4">
+                <hr class="border-top my-3">
+                <h5 class=" text-danger">SERVICE CLIENT</h5>
+                <a class="nav-link text-dark" href="FAQ.html">F.A.Q</a>
+                <a class="nav-link text-dark" href="https://instagram.com"><i class="fab fa-instagram"></i> instagram</a>
+                
+            </div>
+            <div class="col-md-4">
+                <hr class="border-top my-3">
+                <h5 class=" text-danger">NOS POLITIQUES</h5>
+                <p class="text-secondray"><strong>© 2021, Algar's Cosmetics</strong></p>
+                
+            </div>
+        </div>
+
+    </div>
+    <!--footer-->
+    <!-- Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> Si vous avez des questions ou des demandes spéciales n'hésitez pas à nous contactez en remplissant le formulaire ci dessous</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            </div>
+            <div class="modal-body ">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Prenom" required>
+                        <div class="valid-feedback">
+                          
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" required>
+                        <div class="valid-feedback">
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="text" required></textarea>
+                        </div>
+              
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input  " type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <button class="btn btn-danger" type="submit">Envoyer</button>
+                  </form>
+                  
+                  <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                  </script>
+            </div>
+            <div class="modal-footer"> 
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--modal -->
+
+
+   <!--jquery cdn link-->
+   <script src="jquery-3.5.1.slim.min.js"></script>
+   <!--pooper-->
+   <script src="popper.min.js"></script>
+   <!--bootstrap-->
+   <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+   <!-- custom js file link-->
+   <script src="js/script.js"></script>
+</body>
+</html>
